@@ -22,11 +22,12 @@ export function App() {
 
       <div className='grid grid-cols-3 auto-rows-[250px] gap-6'>
 
-    <NewNote/>
-    <NoteCard/>
-    <NoteCard/>
-    <NoteCard/>
-    <NoteCard/>
+    <NewNote  />
+    <NoteCard date={new Date(2023, 4 , 1)} content="Hello World" />
+    <NoteCard date={new Date()} content="Teste" />
+    <NoteCard date={new Date()} content="HAHAHA" />
+    <NoteCard date={new Date()} content="Fala MAFALDA" />
+   
       </div>
     </div>
   ) 
